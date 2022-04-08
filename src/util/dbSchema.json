@@ -1,0 +1,81 @@
+[
+    {
+        "email":"radhey@yopmail.com",
+        "first_name":"Radhey",
+        "last_name":"Patel",
+        "user_type": "CUSTOMER",
+        "birthdate" : "1995-11-25",
+        "rank_prefer":"Board game cafe,Manicures",
+        "rank_weekend":"Vintage Furniture sale,Yoga in the park",
+        "rank_quick_bite":"Take out,Fast casual",
+        "rank_eat_out":"Pub,Fine Dinig",
+        "password":"123456",
+        "social_id":"",
+        "login_type" : "NORMAL"
+    }
+]
+
+[
+    {
+    "status": 0,
+    "msg": "User with that email address already exits."
+}
+
+{
+    "status": 0,
+    "msg": "Missing field(s) :  password"
+}
+]
+
+{
+    "status": 1,
+    "msg": "Almost done... We'll send an email to you. Open it up to activate your account."
+}
+
+
+//aUTH  LOGIN rESPONSE 
+
+{
+    "data": {
+        "user_id": 48,
+        "user_token": "48600be11fee8d9d20a0e4aa2248",
+        "email": "sean.peterelli@gmail.com",
+        "first_name": "Sean",
+        "last_name": "Peterelli",
+        "business_name": "",
+        "bio": "",
+        "mobile_number": "",
+        "birthdate": "1998-12-17",
+        "profile": "",
+        "country": "",
+        "province": "",
+        "city": "",
+        "location": "",
+        "latitude": 0,
+        "longitude": 0,
+        "social_id": "",
+        "auth_token": "488dd55bbd37c4b4bda0ecefffd6deec439111f98fd784564963fc06bfa03f0fa048",
+        "device_push_token": "",
+        "login_type": "NORMAL",
+        "user_type": "CUSTOMER",
+        "is_past_story": 0,
+        "is_map_hide": 0,
+        "is_story_business_logo": 0,
+        "rank_prefer": "Board game cafe,Manicures",
+        "rank_weekend": "Vintage Furniture sale,Yoga in the park",
+        "rank_quick_bite": "Take out,Fast casual",
+        "rank_eat_out": "Pub,Fine Dinig",
+        "specific_age": "",
+        "additional_link": "",
+        "website_link": "",
+        "type_category": "",
+        "type_establishment": "",
+        "type_food": "",
+        "type_main_dish": "",
+        "device_type": "iOS",
+        "verify_forgot_code": "",
+        "is_verify": 1
+    },
+    "msg": "Login success.",
+    "status": 1
+}
